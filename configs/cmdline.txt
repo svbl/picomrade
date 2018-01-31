@@ -1,0 +1,2 @@
+dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=PARTUUID=3380ffa2-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait modules-load=dwc2,g_multi,g_serial
+
