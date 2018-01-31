@@ -47,25 +47,17 @@ supports an SSH client and/or VNC (if you want to use GUI applications).
 
 ## How does it look?
 
-Screenshots: 
+Screenshots (click to enlarge): 
 
-![Chrome OS VNC](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_vnc.png | width=300)
+<a href="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_vnc.png"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_vnc.png" width="250px" height="161px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_ssh.png"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_ssh.png" width="250px" height="237px"></a>
 
-![Chrome OS SSH](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_ssh.png | width=300)
+<a href="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_r2.png"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_r2.png" width="250" height="139px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_filemanager.png"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_filemanager.png" width="250px" height="192px"></a>
 
-![Chrome OS R2](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_r2.png | width=300)
+Pictures (click to enlarge):
 
-![Chrome OS Filemanager](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_filemanager.png | width=300)
+<a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_size.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_size.jpg" width="250px" height="188px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pixelbook.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pixelbook.jpg" width="250px" height="188px"></a>
 
-Pictures:
-
-![piComrade Size](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_size.jpg | width=300)
-
-![piComrade Pixelbook](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pixelbook.jpg | width=300)
-
-![piComrade Pineapple](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pineapple.jpg | width=300)
-
-![piComrade Scale](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg | width=300)
+<a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pineapple.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pineapple.jpg" width="250px" height="188px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg" width="250px" height="188px"></a>
 
 # Required Hardware
 
