@@ -50,15 +50,21 @@ supports an SSH client and/or VNC (if you want to use GUI applications).
 Screenshots: 
 
 ![Chrome OS VNC](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_vnc.png | width=300)
+
 ![Chrome OS SSH](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_ssh.png | width=300)
+
 ![Chrome OS R2](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_r2.png | width=300)
+
 ![Chrome OS Filemanager](https://raw.githubusercontent.com/svbl/picomrade/master/screenshots/chromeos_filemanager.png | width=300)
 
 Pictures:
 
 ![piComrade Size](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_size.jpg | width=300)
+
 ![piComrade Pixelbook](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pixelbook.jpg | width=300)
+
 ![piComrade Pineapple](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pineapple.jpg | width=300)
+
 ![piComrade Scale](https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg | width=300)
 
 # Required Hardware
