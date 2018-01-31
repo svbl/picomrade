@@ -104,7 +104,7 @@ $
 ```
 
 For the remainder of this guide, we assume the SD card is available under 
-/dev/mmcblk0 and will get mounted to /mnt. Please adjust this according to your 
+`/dev/mmcblk0` and will get mounted to `/mnt`. Please adjust this according to your 
 setup.
 
 ## Configure base system
@@ -168,13 +168,13 @@ For the SSH config, we want to avoid listening on the WiFi interface, so we
 limit it to the interface between the Pi and Host:
 
 ```
-$ sudo sed -i ‘s/#ListenAddress\ 0.0.0.0/ListenAddress\ 10.13.37.1/’ /mnt/etc/ssh/sshd_config
+$ sudo sed -i 's/#ListenAddress\ 0.0.0.0/ListenAddress\ 10.13.37.1/' /mnt/etc/ssh/sshd_config
 ```
 
 
 ## Configure USB gadgets
 	
-Next we’ll setup the [g_multi](https://www.kernel.org/doc/Documentation/usb/gadget_multi.txt) gadget driver and enable OTG network and mass-storage support.
+Next we'll setup the [g_multi](https://www.kernel.org/doc/Documentation/usb/gadget_multi.txt) gadget driver and enable OTG network and mass-storage support.
 
 First we enable the `dwc2` OTH overlay:
 
@@ -187,7 +187,7 @@ EOF
 Then we ensure `dwc2` and `g_multi` modules are loaded:
 
 ```
-$ sudo sed -i ‘s/quiet/quiet\ modules-load=dwc2,g_multi/’ /mnt/boot/cmdline.txt
+$ sudo sed -i 's/quiet/quiet\ modules-load=dwc2,g_multi/' /mnt/boot/cmdline.txt
 ```
 
 This is the basic configuration for the `g_multi` module. We set a path to serve
@@ -351,8 +351,8 @@ login anyway. Unfortunately RealVNC doesn't seem to support binding to
 block access to it from the WiFi interface:
 
 ```
-$ sudo sed -i ‘s/#autologin-user=/autologin-user=pi/’ /etc/lightdm/lightdm.conf
-$ sudo sed -i ‘s/exit 0//’ /etc/rc.local
+$ sudo sed -i 's/#autologin-user=/autologin-user=pi/' /etc/lightdm/lightdm.conf
+$ sudo sed -i 's/exit 0//' /etc/rc.local
 $ cat << EOF | sudo tee -a /etc/rc.local
 /sbin/iptables -A INPUT -i wlan0 -p tcp --destination-port 5900 -j DROP
 /sbin/ip6tables -A INPUT -i wlan0 -p tcp --destination-port 5900 -j DROP
