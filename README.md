@@ -386,11 +386,11 @@ Enjoy your piComrade and feel free to
 The following list contains known bugs and some details. If you know a fix for one of these or found another bug, please [open an issue](https://github.com/svbl/picomrade/issues).
 
 - USB sync is slow (buffering): Copy from Pi to Host is fine, other way round 
-is slow and buffered, so files don't appear until buffer is synced. For pulling files from the Pi it is fine, for pushing files to the Pi, better use sftp/scp.
+is slow and buffered, so files don't appear until buffer is synced. For pushing files to the Pi, better use sftp/scp.
 - VNC listener can not be limited to localhost. Apparently this is only an [option in the paid version](https://www.realvnc.com/en/connect/docs/server-parameter-ref.html#server-tcplistenaddresses) of RealVNC. Alternative VNC server would work, but the [RealVNC Chrome Extension](https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla?hl=en) is actually pretty neat. 
 - Some VNC hotkeys (e.g. ALT+X) don't work. Must be a config issue, didn't look into it yet.
 - SD card is not 100% bulletproof for hard-unplugs of the Pi. Maybe switch to read-only root and only have a r/w mounted home. 
 
 # TODO
 
-- I bought have a [Blinkt!](https://shop.pimoroni.com/products/blinkt) attached to my piComrade and plan to use it for some status information (DHCP, WiFi on, found open WiFi, found Bluetooth devices etc.)
+- I got a [Blinkt!](https://shop.pimoroni.com/products/blinkt) attached to my piComrade and plan to use it for some status information (DHCP, WiFi on, found open WiFi, found Bluetooth devices etc.)
