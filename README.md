@@ -33,16 +33,16 @@ use from any Chrome OS/Linux/Windows/Mac host. I decided to call this
 ## How does it work?
 
 The setup described in this document makes use of the Linux USB Gadget
-functionality (g_multi). The piComrade gets identified as a USB network adapter
+functionality ([g_multi](https://www.kernel.org/doc/Documentation/usb/gadget_multi.txt)). The piComrade gets identified as a USB network adapter
 and USB mass-storage device by the host system. More information about this is
 referenced in the instructions below.
 
 ## What can I do with it?
 
-I personally created piComrade to use it along with Chrome OS devices. My main
+I personally created piComrade to use it along with [Chrome OS](https://en.wikipedia.org/wiki/Chrome_OS) devices. My main
 motivation was to have a portable, flexible, GUI based Linux system to run 
-applications that I don't have on a un-rooted Chrome OS (e.g. tcpdump, airodump,
-radare, Gimp etc). But you can also use it with any other Host system that 
+applications which I don't have on a un-rooted Chrome OS (e.g. tcpdump, airodump,
+radare2, Gimp etc). But you can also use it with any other Host system that 
 supports an SSH client and/or VNC (if you want to use GUI applications).
 
 ## How does it look?
@@ -383,8 +383,7 @@ Enjoy your piComrade and feel free to
 
 # Known Bugs
 
-The following list contains known bugs and some details. If you have a fix, 
-please open a feature request.
+The following list contains known bugs and some details. If you know a fix for one of these or found another bug, please [open an issue](https://github.com/svbl/picomrade/issues).
 
 - USB sync is slow (buffering): Copy from Pi to Host is fine, other way round 
 is slow and buffered, so files don't appear until buffer is synced. For pulling files from the Pi it is fine, for pushing files to the Pi, better use sftp/scp.
