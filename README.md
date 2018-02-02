@@ -183,7 +183,7 @@ $ sudo sed -i 's/#ListenAddress\ 0.0.0.0/ListenAddress\ 10.13.37.1/' /mnt/etc/ss
 	
 Next we'll setup the [g_multi](https://www.kernel.org/doc/Documentation/usb/gadget_multi.txt) gadget driver and enable OTG network and mass-storage support.
 
-First we enable the `dwc2` OTH overlay:
+First we enable the `dwc2` OTG overlay:
 
 ```
 $ cat << EOF | sudo tee -a /mnt/boot/config.txt
@@ -234,7 +234,7 @@ EOF
 ## Unmount SD card
 
 The basic configuration is done now. Feel free to double-check configuration 
-against the sample files I put [here](https://github.com/svbl/picomrade/conf/pre-boot).
+against the sample files I put [here](https://github.com/svbl/picomrade/tree/master/configs).
 
 You can unmount the SD card now:
 
@@ -382,8 +382,8 @@ $ sudo tune2fs -c -1 -i 0 /dev/mmcblk0p2
 
 All done! 
 
-You can now start customizing the piComrade in the way you want, with installing
-additional applications and configure it to your preference.
+You can now start customizing the piComrade by installing additional packages
+and configure it to your preferences.
 
 Enjoy your piComrade and feel free to 
 [give me some feedback](https://twitter.com/svblxyz)!
