@@ -3,6 +3,7 @@
 ![piComrade Logo](https://raw.githubusercontent.com/svbl/picomrade/master/picomrade.png)
 
    * [piComrade](#picomrade)
+      * [TL;DR](#tldr)
       * [What is this about?](#what-is-this-about)
       * [How does it work?](#how-does-it-work)
       * [What can I do with it?](#what-can-i-do-with-it)
@@ -22,6 +23,10 @@
       * [Final steps](#final-steps)
    * [Known Bugs](#known-bugs)
    * [TODO](#todo)
+
+## TL;DR
+
+![piComrade TL;DR](https://raw.githubusercontent.com/svbl/picomrade/master/picomrade_tldr.png)
 
 ## What is this about?
 
@@ -57,7 +62,9 @@ Pictures (click to enlarge):
 
 <a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_size.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_size.jpg" width="250px" height="188px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pixelbook.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pixelbook.jpg" width="250px" height="188px"></a>
 
-<a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pineapple.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_pineapple.jpg" width="250px" height="188px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg" width="250px" height="188px"></a>
+<a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_phone.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_phone.jpg" width="250px" height="188px"></a> <a href="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg"><img src="https://raw.githubusercontent.com/svbl/picomrade/master/pictures/picomrade_scale.jpg" width="250px" height="188px"></a>
+
+[(more pictures)](https://github.com/svbl/picomrade/tree/master/pictures)
 
 # Required Hardware
 
